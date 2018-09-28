@@ -7,22 +7,35 @@
 	<link href="http://fonts.googleapis.com/css?family=Roboto:400,300" type="text/css" rel="stylesheet">
 	<meta charset="utf-8">
 </head>
-<body background="img/header_bg.jpg">
-	
+<body>
+<div class="page">
 	<div class="social">
-		<a href=""></a>
-		<a href=""></a>
-		<a href=""></a>
-		<a href=""></a>
+		<a href="#home"><i class="fas fa-rss">			</i></a>
+		<a href="#home"><i class="fab fa-twitter">		</i></a>
+		<a href="#home"><i class="fab fa-facebook-f">	</i></a>
+		<a href="#home"><i class="fab fa-google-plus-g"></i></a>
 	</div>
 
-	<img src="img/logo.png">
+	<img class="back" src="img/header_bg.jpg">
+
+	<div class="logo"><img src="img/logo.png"></div>
 
 	<nav class="bar">
-		<i class="fas fa-home"><a href="#home">HOME</a></i>
-		<i class="fas fa-home"><a href="#home">HOME</a></i>
+		<i class="fas fa-home">	<a href="#home">HOME</a></i>
+		<i class="fas fa-cogs">	<a href="#home">FEATURES</a></i>
+		<i class="fas fa-home">	<a href="#home">PAGES</a></i>
+		<i class="fas fa-th">	<a href="#home">PORTFOLIO</a></i>
+		<i class="fas fa-home">	<a href="#home">BLOG</a></i>
+		<i class="fas fa-home">	<a href="#home">CONTACT</a></i>
 	</nav>
 
+	
+<!-- Als ik bij de onderstaande nav alleen het i element in de CSS aankaart als een block element, komt het logotje erboven te staan, maar staan de verschillende links weer onder elkaar:-->
+	<!-- <nav class="bar">
+		<a href="#home"><i class="fas fa-home"></i>HOME</a>
+		<a href="#home"><i class="fas fa-home"></i>HOME</a>
+	</nav> -->
 
+</div>
 </body>
 </html>
