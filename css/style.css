@@ -2,6 +2,13 @@ body{
 	font-family: 'Roboto', sans-serif;
 	color: rgba(255, 255, 255, 0.8);
 }
-.fa-android{
-	font-size: 50px;
+
+nav{
+	margin: 0 auto;
+	width: 50%;
+}
+
+nav a{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
 }
